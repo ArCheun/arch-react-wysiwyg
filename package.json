@@ -35,6 +35,7 @@
     "@ckeditor/ckeditor5-table": "^23.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^23.0.0",
     "@ckeditor/ckeditor5-typing": "^23.0.0",
+    "@ckeditor/ckeditor5-upload": "^23.1.0",
     "@wiris/mathtype-ckeditor5": "^7.24.1",
     "css-loader": "^4.3.0",
     "postcss": "^8.1.1",
