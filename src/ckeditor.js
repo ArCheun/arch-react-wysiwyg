@@ -8,13 +8,9 @@ import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat.js';
 import Autolink from '@ckeditor/ckeditor5-link/src/autolink.js';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote.js';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold.js';
-import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder.js';
-import CKFinderUploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter.js';
 import Code from '@ckeditor/ckeditor5-basic-styles/src/code.js';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock.js';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js';
-import ExportToPDF from '@ckeditor/ckeditor5-export-pdf/src/exportpdf.js';
-import ExportToWord from '@ckeditor/ckeditor5-export-word/src/exportword.js';
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor.js';
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor.js';
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily.js';
@@ -35,7 +31,6 @@ import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic.js';
 import Link from '@ckeditor/ckeditor5-link/src/link.js';
 import List from '@ckeditor/ckeditor5-list/src/list.js';
 import ListStyle from '@ckeditor/ckeditor5-list/src/liststyle.js';
-import MathType from '@wiris/mathtype-ckeditor5';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js';
 import MediaEmbedToolbar from '@ckeditor/ckeditor5-media-embed/src/mediaembedtoolbar.js';
 import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak.js';
@@ -56,13 +51,9 @@ Editor.builtinPlugins = [
 	Autolink,
 	BlockQuote,
 	Bold,
-	CKFinder,
-	CKFinderUploadAdapter,
 	Code,
 	CodeBlock,
 	Essentials,
-	ExportToPDF,
-	ExportToWord,
 	FontBackgroundColor,
 	FontColor,
 	FontFamily,
@@ -83,7 +74,6 @@ Editor.builtinPlugins = [
 	Link,
 	List,
 	ListStyle,
-	MathType,
 	MediaEmbed,
 	MediaEmbedToolbar,
 	PageBreak,
